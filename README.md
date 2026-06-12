@@ -43,8 +43,8 @@ venv\Scripts\activate             # Windows
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Set your Anthropic API key
-export ANTHROPIC_API_KEY=sk-ant-...
+# Set your Groq API key
+export GROQ_API_KEY=gsk_...
 
 # 4. Run
 python run.py --cv uploads/my_cv.pdf
