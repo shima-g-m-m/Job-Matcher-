@@ -1,0 +1,23 @@
+# ── CV Reading ────────────────────────────────────────────────────────────────
+pdfplumber>=0.9.0
+PyPDF2>=3.0.0
+python-docx>=0.8.11
+
+# ── HTTP / APIs ───────────────────────────────────────────────────────────────
+requests>=2.28.0
+
+# ── Embeddings & Similarity (strongly recommended) ───────────────────────────
+# Provides bi-encoder retrieval AND cross-encoder re-ranking.
+# Without it: keyword overlap only (no semantic search, no re-ranking).
+sentence-transformers>=2.0.0
+
+# ── Data / Evaluation ─────────────────────────────────────────────────────────
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# ── Optional: Groq LLM integration ───────────────────────────────────────────
+# No extra package needed — uses Python's built-in urllib.
+# Set env vars before running:
+#   export GROQ_API_KEY="gsk_..."     # free at https://console.groq.com/
+#   export ADZUNA_APP_ID="..."        # free at https://developer.adzuna.com/
+#   export ADZUNA_APP_KEY="..."
